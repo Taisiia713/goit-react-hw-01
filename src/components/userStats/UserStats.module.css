@@ -1,0 +1,25 @@
+.ul {
+    display: flex;
+    background-color: rgb(158, 157, 157);
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+    justify-content: space-between;
+
+}
+
+.li {
+    display: inline-grid;
+    gap: 5px;
+
+}
+
+.litext {
+    color: black;
+
+}
+
+.linumbers {
+    color: black;
+    font-weight: 700;
+}

@@ -10,14 +10,15 @@ const userProfile = {
   },
 };
 
-import UserData from "../userData/userData";
-import UserStats from "../userStats/userStats";
+import css from "../profile/Profile.module.css";
+import UserStats from "../../components/userStats/userStats";
+import UserData from "../../components/userData/userData";
 
 export default function Profile() {
   return (
-    <div>
+    <div className={css.container}>
       <UserData user={userProfile} />
-      <UserStats userInfo={userProfile} />
+      <UserStats user={userProfile} />
     </div>
   );
 }
