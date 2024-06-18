@@ -1,9 +1,34 @@
-.container {}
-
 .table {
-    margin-left: auto;
-    margin-right: auto;
     margin-top: 50px;
-    border: 2px solid #000;
+    margin-bottom: 50px;
+    border-collapse: collapse;
     padding: 12px;
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+table,
+td,
+th {
+    border: 1px solid;
+    text-align: center;
+
+}
+
+td {
+    padding: 6px;
+}
+
+tbody {
+    font-size: 16px;
+}
+
+tbody>tr:nth-child(2n+2) {
+    background-color: rgb(172, 172, 172);
+}
+
+thead {
+    color: white;
+    font-size: 20px;
+    background-color: #161515;
 }

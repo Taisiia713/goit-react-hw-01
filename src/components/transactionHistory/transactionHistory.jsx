@@ -1,6 +1,6 @@
-import Items from "../items/items";
+import Items from "../items/Items";
 import transactions from "../../transactions.json";
-import css from "./transactionHistory.module.css";
+import css from "./TransactionHistory.module.css";
 
 export default function TransactionHistory() {
   return (

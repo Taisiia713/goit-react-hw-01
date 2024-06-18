@@ -1,4 +1,4 @@
-import Friends from "../friends/friends";
+import Friends from "../friends/Friends";
 
 export default function FriendList() {
   return (

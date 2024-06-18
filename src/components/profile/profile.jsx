@@ -11,8 +11,8 @@ const userProfile = {
 };
 
 import css from "../profile/Profile.module.css";
-import UserStats from "../../components/userStats/userStats";
-import UserData from "../../components/userData/userData";
+import UserStats from "../userStats/UserStats";
+import UserData from "../userData/UserData";
 
 export default function Profile() {
   return (

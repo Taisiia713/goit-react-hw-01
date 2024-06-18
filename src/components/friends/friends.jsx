@@ -1,6 +1,6 @@
 import friends from "../../friends.json";
-import FriendListItem from "../friendListItem/friendListItem";
-import css from "./friends.module.css";
+import FriendListItem from "../friendListItem/FriendListItem";
+import css from "./Friends.module.css";
 
 export default function Friends() {
   return (
