@@ -1,6 +1,6 @@
 import css from "../profile/Profile.module.css";
-import UserStats from "../../components/userStats/UserStats";
-import UserData from "../../components/userData/UserData";
+import UserStats from "../userStats/UserStats";
+import UserData from "../userData/UserData";
 import userData from "../../userData.json";
 
 export default function Profile() {
