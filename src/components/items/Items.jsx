@@ -1,4 +1,5 @@
-export default function Items({ oneTransaction: { type, amount, currency } }) {
+export default function Items({ oneTransaction }) {
+  const { type, amount, currency } = oneTransaction;
   return (
     <>
       <td>{type} </td>
